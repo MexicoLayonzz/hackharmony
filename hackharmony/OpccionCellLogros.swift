@@ -23,7 +23,7 @@ struct OpcionesCell:View {
                 .multilineTextAlignment(.center)
             Text(option.texto)
                 .font(.body)
-                .foregroundColor(.secondary)
+                .foregroundColor(.white)
                 .multilineTextAlignment(.center)
                 .padding(.vertical)
             Spacer()

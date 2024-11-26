@@ -19,7 +19,7 @@ struct SplashScreenView: View {
         }else{
             VStack{
                 VStack{
-                    Circle()
+                    Image("icono")
                         .font(.system(size: 80))
                         .foregroundColor(Color(hex: 0x323964))
                     Text("El conejo en la luna".uppercased())
