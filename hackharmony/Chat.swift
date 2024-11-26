@@ -37,7 +37,7 @@ struct ChatView: View {
                         
                         
                         VStack(alignment: .leading, spacing: 10) {
-                            Text("Ablemos")
+                            Text("Hablemos")
                                 .font(.largeTitle)
                                 .fontWeight(.semibold)
                                 .foregroundColor(.white) // Texto visible sobre fondo azul

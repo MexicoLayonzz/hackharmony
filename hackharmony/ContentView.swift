@@ -84,7 +84,7 @@ struct ContentView: View {
                         Button(action: {
                             isActive = false
                         }, label: {
-                            Text("Juguemos".uppercased())
+                            Text("Agenda".uppercased())
                                 .fontWeight(.bold)
                                 .foregroundStyle(Color(hex: 0x323964))
                                 .padding()
