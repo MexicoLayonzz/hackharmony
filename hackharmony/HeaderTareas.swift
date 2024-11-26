@@ -1,15 +1,14 @@
 //
-//  HederLogros.swift
+//  HeaderTareas.swift
 //  hackharmony
 //
-//  Created by CEDAM27 on 25/11/24.
+//  Created by CEDAM27 on 26/11/24.
 //
 
-//
 import Foundation
 import SwiftUI
 
-struct HeaderLogros: View {
+struct hederTareas: View {
     var body: some View {
         ZStack(alignment: .top) {
             // Fondo azul que ocupa el espacio del header
@@ -19,17 +18,18 @@ struct HeaderLogros: View {
             // Contenido del header
             HStack {
                 VStack(alignment: .leading, spacing: 10) {
-                    Text("Logros")
+                    Text("Tareas")
                         .font(.largeTitle)
                         .fontWeight(.semibold)
                         .foregroundColor(.white) // Texto visible sobre fondo azul
-                    Text("Tú puedes!!")
+                    Text("Vas muy bien esta semana")
+                        .fontWeight(.bold)
                         .font(.title3)
                         .fontWeight(.light)
                         .foregroundColor(.white.opacity(0.8)) // Más tenue
                 }
                 Spacer()
-                Image("5")
+                Image("1")
                     .resizable()
                     .padding()
                     .frame(width: 100, height: 100)
@@ -40,7 +40,6 @@ struct HeaderLogros: View {
             }
             .padding()
         }
-        .frame(height: 100) // Altura del header
+        .frame(height: 100)
     }
 }
-

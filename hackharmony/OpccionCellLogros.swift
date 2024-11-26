@@ -28,8 +28,9 @@ struct OpcionesCell:View {
                 .padding(.vertical)
             Spacer()
         }
+        .foregroundStyle(Color.white)
         .padding()
-        .background(RoundedRectangle(cornerRadius: 35).fill(Color.blue))
+        .background(RoundedRectangle(cornerRadius: 35).fill(Color(hex: 0x323964)))
     }
 }
 

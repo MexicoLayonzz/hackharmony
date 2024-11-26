@@ -11,7 +11,9 @@ import SwiftUI
 struct hackharmonyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
+    
+    
 }

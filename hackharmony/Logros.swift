@@ -10,7 +10,7 @@ import SwiftUI
 struct logrosview: View {
     var body: some View {
         VStack{
-            hederlogros()
+            HeaderLogros()
             ScrollView{
                 OpcionesGridview()
             }
