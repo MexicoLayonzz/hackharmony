@@ -13,7 +13,7 @@ struct ContentView: View {
                     .frame(width: 950, height: 500)
                     .position(x: 200, y: -20)
                 
-                Image("4")
+                Image("5")
                     .resizable()
                     .padding()
                     .frame(width: 250, height: 250)
@@ -134,7 +134,7 @@ struct ContentView: View {
             ZStack {
                 LinearGradient(gradient: gradient, startPoint: .topLeading, endPoint: .bottomTrailing)
                 Button("¿Quieres hablar?") {
-                    // Acción cuando se presiona el botón
+                    
                 }
                 .frame(width: 300, height: 50)
                 .background(Color(hex: 0xFFAB13))
@@ -145,6 +145,7 @@ struct ContentView: View {
                     RoundedRectangle(cornerRadius: 20)
                         .stroke(Color.white, lineWidth: 3)
                 )
+                
             }
             .edgesIgnoringSafeArea(.all)
             .frame(height: 100)

@@ -28,3 +28,5 @@ struct BarraDeMenu: View {
         .background(Color.black.edgesIgnoringSafeArea(.bottom))
     }
 }
+
+
